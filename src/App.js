@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch } from 'react-router-dom';
 import { StateProvider } from './StateProvider';
 import Call from './components/Call/Call';
 import Header from './components/Header/Header';

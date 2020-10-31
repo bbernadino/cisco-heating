@@ -1,4 +1,3 @@
-import { TimeToLeave, Title } from '@material-ui/icons';
 import React, { useContext } from 'react';
 import styled from 'styled-components';
 import { StateContext } from '../../StateProvider';
