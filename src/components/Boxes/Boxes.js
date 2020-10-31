@@ -28,7 +28,7 @@ const BoxesContent = styled.div`
 `;
 
 function Boxes() {
-  const [services, setServices] = useContext(StateContext);
+  const [services] = useContext(StateContext);
 
   return (
     
