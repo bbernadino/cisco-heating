@@ -6,6 +6,7 @@ import Call from './components/Call/Call';
 import Header from './components/Header/Header';
 import Boxes from './components/Boxes/Boxes';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 const Wrapper = styled.div`
   width: 100%;
@@ -23,6 +24,7 @@ function App() {
             <Call />
             <Boxes />
             <Contact /> 
+            <Footer />
           </Wrapper>
         </Switch>
       </Router>

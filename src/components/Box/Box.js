@@ -35,10 +35,9 @@ const BoxContent = styled.div`
   }
 `;
 
-const BoxIcon = styled.div`
+export const BoxIcon = styled.div`
   width: 70px;
   height: 70px;
-  border-radius: 50%;
 
   .MuiSvgIcon-root {
     height: 100%;

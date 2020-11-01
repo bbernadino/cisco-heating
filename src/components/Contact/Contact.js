@@ -10,7 +10,8 @@ const ContactBox = styled.div`
   justify-content: flex-start;
 
   @media screen and (max-width: 1024px) {
-    height: 100%;
+    height: unset;
+    padding-bottom: 30px;
   }
 `;
 
@@ -34,6 +35,7 @@ const ContactContent = styled.div`
 
   @media screen and (max-width: 1024px) {
     height: unset;
+    margin-bottom: 15px;
   }
 `;
 

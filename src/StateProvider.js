@@ -14,7 +14,7 @@ export const StateProvider = (props) => {
       title: 'Service and Repair',
       icon: <BuildIcon />,
       description: 
-        'Residential repairs, installs, and new construction. Authorized York and Day and Night Dealer. Se habla Español.'
+        'Residential repairs, installs, and new construction. Authorized York and Day and Night Dealer.'
     },
     {
       id: 2,

@@ -19,7 +19,7 @@ const BoxesContent = styled.div`
     align-items: center;
     justify-content: flex-start;
     height: unset;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
   }
 
   @media screen and (max-width: 1360px) {
