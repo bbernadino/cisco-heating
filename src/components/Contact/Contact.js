@@ -4,20 +4,20 @@ import { CallButton as ContactButton } from '../Call/Call';
 
 const ContactBox = styled.div`
   width: 100%;
-  height: 70%;
+  height: 65%;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  padding-bottom: 30px;
 
   @media screen and (max-width: 1024px) {
     height: unset;
-    padding-bottom: 30px;
   }
 `;
 
 const ContactContent = styled.div`
   width: 90%;
-  height: 90%;
+  height: 100%;
   border-radius: 15px;
   background-color: #FEFFFD;
   box-shadow: 0 15px 15px rgba(0,0,0, 0.90);
@@ -26,16 +26,20 @@ const ContactContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 
   h1 {
     color: #2A2B19;
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 15px;
+
+    @media screen and (max-width: 1024px) {
+      margin-bottom: 15px;
+      padding: 5px;
+    }
   }
 
   @media screen and (max-width: 1024px) {
     height: unset;
-    margin-bottom: 15px;
   }
 `;
 
@@ -123,7 +127,7 @@ function Contact() {
   return (
     <ContactBox>
       <ContactContent>
-        <h1>Contact us!</h1>
+        <h1>Contact us for Pricing</h1>
         <ContactForm>
           <div className="formFields">
             <div className="formFieldsInputs">

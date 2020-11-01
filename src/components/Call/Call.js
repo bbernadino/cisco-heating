@@ -108,11 +108,11 @@ export const CallButton = styled.button`
   margin: auto;
   height: 45px;
   width: 50%;
-  border: none;
+  border: 3px solid #2A2B19;
   border-radius: 15px;
   box-shadow: 0 5px 5px rgba(0,0,0, 0.15); 
-  background: linear-gradient(45deg, #F8D235 0%, #F28327 35%, #26A9E0 90%);
-  color: white;
+  background: #FEFFFD;
+  color: #2A2B19;
   font-weight: 700;
 
   :hover {
@@ -120,10 +120,15 @@ export const CallButton = styled.button`
     box-shadow: 0 3px 3px rgba(0,0,0, 0.15);
     transform: scale(1.02);
     transition: all 0.15s;
+    color: #FEFFFD;
+    border: 3px solid #FEFFFD;
+    background: #2A2B19;
   }
 
   :active {
-    color: black;
+    color: #FEFFFD;
+    border: 3px solid #2A2B19;
+    background: #2A2B19;
   }
 `;
 
