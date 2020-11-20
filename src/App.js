@@ -1,7 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { BrowserRouter as Router, Switch } from 'react-router-dom';
-import { StateProvider } from './StateProvider';
 import Call from './components/Call/Call';
 import Header from './components/Header/Header';
 import Boxes from './components/Boxes/Boxes';
@@ -16,19 +14,13 @@ const Wrapper = styled.div`
 
 function App() {
   return (
-    <StateProvider>
-      <Router>
-        <Switch>   
-          <Wrapper>
-            <Header />
-            <Call />
-            <Boxes />
-            <Contact /> 
-            <Footer />
-          </Wrapper>
-        </Switch>
-      </Router>
-    </StateProvider>
+    <Wrapper>
+      <Header />
+      <Call />
+      <Boxes />
+      <Contact /> 
+      <Footer />
+    </Wrapper>
   );
 }
 

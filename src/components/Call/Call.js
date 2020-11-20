@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import callImg from '../../assets/img/cisco.jpg';
 import meritt from '../../assets/img/meritt-thomas-0YhmNx1Q96I-unsplash.jpg';
@@ -148,11 +147,11 @@ function Call() {
             and cheapest service that you are looking for. Give 
             us a call at 435-760-1543! Se Habla Español.
           </p>
-          <Link to='/'>
+          <a href="#contact">
             <CallButton>
               Get a Quote!
             </CallButton>
-          </Link>
+          </a>
         </CallInfo>
         <CallImg>
           <AwesomeSlider>

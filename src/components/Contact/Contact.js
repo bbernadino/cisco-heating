@@ -125,7 +125,7 @@ const ContactButtonBox = styled.div`
 
 function Contact() {
   return (
-    <ContactBox>
+    <ContactBox id="contact">
       <ContactContent>
         <h1>Contact us for Pricing</h1>
         <ContactForm>

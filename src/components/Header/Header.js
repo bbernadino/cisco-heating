@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import LogoImg from '../../assets/img/IMG-6436.JPG';
-import { Link } from 'react-router-dom';
 
 const HeaderBox = styled.div`
   height: 12%;
@@ -57,8 +56,8 @@ function Header() {
       <HeaderBox>
         <Logo />
         <HeaderLinks>
-          <Link to="/"><h4>Pricing</h4></Link>
-          <Link to="/"><h4>Contact</h4></Link>      
+          <h4>435-760-1543</h4>
+          <a href="#contact"><h4>Contact</h4></a> 
         </HeaderLinks>
       </HeaderBox>
   );
